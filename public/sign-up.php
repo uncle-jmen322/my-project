@@ -12,13 +12,13 @@
 <div class="sign-up-form-wrapper">
 
   <form class="login-form" action="" method="post">
-  <fieldset>
+  <fieldset class="login-fieldset">
     <legend>SIGN IN</legend>
-    <p><strong>Login:</strong>
-      <input maxlength="25" size="40" name="login">
+    <p>
+      <input class="form-fields-prop sign-margin-fields" maxlength="25" size="40" name="login">
     </p>
-    <p><strong>Password:</strong> 
-      <input type="password" maxlength="25" size="40" name="password">
+    <p>
+      <input class="form-fields-prop sign-margin-fields" type="password" maxlength="25" size="40" name="password">
     </p>
   <p><input class="sign-in-button" type="submit" value="SIGN IN"></p>
   </fieldset>
@@ -27,26 +27,22 @@
 <form class="register-form" action="" method="post">
   <fieldset>
     <legend>REGISTER</legend>
-      <p><strong>Login:</strong>
-        <input maxlength="25" size="40" name="login">
+      <p>
+        <input class="form-fields-prop" maxlength="25" size="40" name="login">
     </p>
-    <p><strong>Password:</strong> 
-      <input type="password" maxlength="25" size="40" name="password">
+    <p>
+      <input class="form-fields-prop" type="password" maxlength="25" size="40" name="password">
     </p>
-    <p><strong>Confirm Password:</strong> 
-      <input type="password" maxlength="25" size="40" name="password">
+    <p>
+      <input class="form-fields-prop" type="password" maxlength="25" size="40" name="password">
     </p>
-    <p><input class="register-button" type="submit" value="CREATE ACCOUNT"></p>
+    <p>
+      <input class="register-button" type="submit" value="CREATE ACCOUNT">
+    </p>
   </fieldset>
 </form>
 
 </div>
-
-
-
-
-
-	
 </body>
 </html>
 
