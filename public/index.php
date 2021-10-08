@@ -7,12 +7,12 @@ use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
 
-$log = new Logger('name');
-$log->pushHandler(new StreamHandler('path/to/your.log', Logger::WARNING));
+$log = new Logger('test');
+$log->pushHandler(new StreamHandler('log/your.log', Logger::WARNING));
 
 
-$log->warning('Foo');
-$log->error('Bar');
+$log->warning('Warning');
+$log->error('Error');
 
 
 ?>
