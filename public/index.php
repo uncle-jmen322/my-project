@@ -1,3 +1,23 @@
+<?php
+
+require_once "../vendor/autoload.php";
+
+
+use Monolog\Logger;
+use Monolog\Handler\StreamHandler;
+
+
+$log = new Logger('name');
+$log->pushHandler(new StreamHandler('path/to/your.log', Logger::WARNING));
+
+
+$log->warning('Foo');
+$log->error('Bar');
+
+
+?>
+
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -48,14 +68,6 @@
 </div>
 </body>
 </html>
-<!---->
-<?php
-//require_once "../vendor/autoload.php";
-//
-//
-//new \App\Controller\IndexController();
-//
-//echo "Hello";
-//
-//?>
-<!---->
+
+
+
