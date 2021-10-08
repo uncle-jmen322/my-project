@@ -36,6 +36,15 @@
       </div>
     </div>
   </section>
+  <footer>
+    <div class="footer-img">
+      <img src="img/ave-logo.png" alt="avenu-logo">
+    </div>
+    <div class="footer-strip">
+      <p class="left-footer-text">© 2021 Avenue Fashion™</p>
+      <p class="right-footer-text">Dev by Yevhenii Oksom</p>
+    </div>
+  </footer>
 </div>
 </body>
 </html>
