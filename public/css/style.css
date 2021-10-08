@@ -1,0 +1,158 @@
+@font-face {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: 400;
+	  src: local("Montserrat"),
+  url("/fonts/"Montserrat-Regular.ttf) format("ttf"),
+}
+
+body {
+font-family: "Montserrat", sans-serif;
+}
+
+.main-wrapper {
+width: 100%;
+}
+
+.main-section {
+background-color: #f8f8f8;
+position: relative;
+}
+
+.logo-man {
+	position: ;
+}
+
+
+.sign-up input  {
+background-color: #333333;
+border: none;
+color: #999999;
+font-size: 13px;
+line-height: 20px;
+}
+
+.header {
+height: 53px;
+background-color: #333333;
+display: flex;
+flex-direction: row;
+justify-content: flex-end;
+}
+
+.sign-up-list ul {
+
+	margin-right: 111px;
+}
+
+.sign-up-list li {
+display: inline;
+margin-right: 75px;
+}
+
+.sign-up-list a {
+color: #999999;
+text-decoration: none;
+}
+
+.sign-up-list a:hover {
+	color: #00c8c8;
+}
+
+.basket {
+width: 120px;
+height: 46px;
+margin-right: 14%;
+background-color: #00c8c8;
+color: #fff;
+text-align: center;
+padding-top: 7px;
+}
+
+.main-section {
+height: 920px;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.header-logo {
+margin-top: 2%;
+margin-left: 10%;
+position: absolute;
+}
+
+.man-logo {
+margin-left: 250px;
+}
+
+
+.nav-menu {
+margin-left: 50%;
+margin-top: 2%;
+position: absolute;
+}
+
+.top-menu li {
+	font-size: 13px;
+  display: inline;
+  margin-right: 150px;
+  text-transform: uppercase;
+}
+
+.top-menu a {
+text-decoration: none;
+color: #222222;
+}
+
+.top-menu a:visited {
+color: #222222;
+}
+
+.top-menu a:hover {
+	color: #00c8c8;
+}
+
+img.footer-logo {
+padding-left: 100px;
+}
+
+.footer-side {
+height: 53px;
+background-color: #333333;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+font-size: 13px;
+line-height: 30px;
+color: #777777;
+}
+
+.left-copyright {
+padding-left: 150px;
+}
+
+.right-copyright {
+padding-right: 150px;
+}
+
+.footer-img {
+margin-left: 150px;
+}
+
+.footer-strip {
+color: #777777;
+height: 53px;
+background-color: #333333;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.left-footer-text{
+margin-left: 150px;
+}
+
+.right-footer-text{
+margin-right: 150px;
+}
